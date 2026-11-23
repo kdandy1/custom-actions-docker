@@ -17,5 +17,5 @@ git config --global user.email "github-actions@users.noreply.github.com"
 # Add README to git, commit, and push the changes
 git add README.md
 git commit -m "Update README with vowel frequency results"
-git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+git remote add origin git@github.com:kdandy1/custom-actions-docker.git
 git push origin main
